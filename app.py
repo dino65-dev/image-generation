@@ -9,8 +9,9 @@ client = InferenceClient(
     token=hf_token
 )
 
-user_input = st.text_input("Enter your image prompt here")
 st.title("Stable Diffusion 3.5 Large")
+user_input = st.text_input("Enter your image prompt here")
+
 submit = st.button("Generate Image")
 # output is a PIL.Image object
 if submit:
