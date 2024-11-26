@@ -3,7 +3,7 @@ import streamlit as st
 
 client = InferenceClient(
     "stabilityai/stable-diffusion-3.5-large",
-    token="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"
+    token=""
 )
 
 user_input = st.text_input("Enter your image prompt here")
